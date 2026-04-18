@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 19th birthday my love♥️♥️♥️♥️♥️✨</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="balloon-container"></div>
+    <audio id="bgMusic" loop src="assests/Ed Sheeran - Perfect - (320 Kbps).mp3"></audio>
+
+    <div class="slider-viewport">
+        <div class="main-slider" id="mainSlider">
+            
+            <section class="slide">
+                <div class="content-card">
+                    <h1 class="pink-title">Happy 19th Birthday, Sammmaaaa!!!!♥️✨</h1>
+                    <p class="subtitle">Ready to celebrate your special day, my love??🥹❤️😭</p>
+                    <button class="btn" onclick="startExperience()">Start the Party! 🎂</button>
+                </div>
+            </section>
+
+            <section class="slide">
+                <div class="content-card">
+                    <div class="cake-zone">
+                        <div id="cake" class="cake-main">🎂</div>
+                        <div id="knife" class="knife-tool" draggable="true">🔪</div>
+                    </div>
+                    <p class="instruction">knife ko drag karrrrr meriiiii bannooo!!!🥹❤️</p> 🎂</p>
+                    
+                    <div id="greetingCard" class="pop-up hidden">
+                        <h2>Happy birthday my love!!....now we are one year closer to getting married😭😭....Yayyyyyy!💖</h2>
+                        <p>19 ki ho gyiiiiii leeeeee betaaaaa🫂🤍 ..... i'm genuinely thankfulll to you my goddesss for choosing a nerd and clumsy person as your partner, my love♥️, it's ur birthday today but i feel like it's mine,😭.....i love you smm my cockroach🪳</p>
+                        <button class="btn" onclick="nextSlide()">See Memories ➔</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="slide">
+                <div class="gallery-wrapper">
+                    <P><h2 class="pink-title">SCROLL SLOWLY!!
+                        Our Memory Lane 🎀</h2></P>
+                    <div class="scroll-box">
+                        <div class="pic"><div class="tag">our super aesthetic pic😭</div><img src="assests/image1.jpeg"></div>
+                        <div class="pic"><div class="tag">the cutest one🥹</div><img src="assests/image2.jpeg"></div>
+                        <div class="pic"><div class="tag">moments that i wish i could freeze✨</div><img src="assests/image3.jpeg"></div>
+                        <div class="pic"><div class="tag">my forever favourite😭</div><img src="assests/image4.jpeg"></div>
+                        <div class="pic"><div class="tag">My Heart 💖</div><img src="assests/image5.jpeg"></div>
+                        <div class="pic"><div class="tag">ahh!! this pic alwayss slayss!!🫶</div><img src="assests/image6.jpeg"></div>
+                        <div class="pic"><div class="tag">yes i'm your lover!!🥹</div><img src="assests/Screenshot 2026-04-19 001627.png"></div>
+                    </div>
+                    <button class="btn" onclick="nextSlide()">Last Surprise ➔</button>
+                </div>
+            </section>
+
+            <section class="slide">
+                <div class="content-card video-card">
+                    <h2 class="pink-title">A Special Surprise! 🎁</h2>
+                    <div class="video-frame">
+                        <video id="bdayVideo" src="assests/birthday video.mp4" controls></video>
+                    </div>
+                    <button class="btn" onclick="restart()">Back to Start 🎀</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
